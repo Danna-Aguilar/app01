@@ -1,0 +1,26 @@
+body{
+    background-color: #08353b;
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+h2{
+    color: green;
+}
+h3{
+    color: blue;
+}
+.header{
+    color:#66FCF1;
+}
+div{
+    background-color: #0b0c10;
+}
+#div-1{
+    background: rgb(3, 33, 43);
+    width: 500px;
+}
+#div-2{
+    background: rgb(25, 57, 58);
+    width: 800px;
+}
