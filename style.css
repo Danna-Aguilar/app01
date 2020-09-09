@@ -1,26 +1,117 @@
-body{
-    background-color: #08353b;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+#meme-image{
+    width:30%
 }
+
+
+.sub-category{
+    color: white;
+}
+
 h1{
-    color: rgb(255, 255, 255);
+    color: red
 }
+
 h2{
-    color: green;
+    color: green
 }
+
 h3{
-    color: blue;
+    color: blue
 }
+
 .header{
-    color:#66FCF1;
+    color: black;
 }
+
 div{
-    background-color: #0b0c10;
+    background-color:blanchedalmond;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14;
 }
+
 #div-1{
-    background: rgb(3, 33, 43);
-    width: 500px;
+    width: 100%;
+    text-align: center;
+    font-size: 600%;
+    font-weight: bolder;
 }
+
 #div-2{
-    background: rgb(25, 57, 58);
-    width: 800px;
+    width: 100%;
+    background-color: rgb(129, 95, 1);
+    color: black;
+    font-size: 300%;
+    text-align: center;
+}
+
+body{
+    background-color:burlywood;
+    margin: 0%;
+}
+
+.container-elements{
+    height: auto;
+    min-height: 100px;
+}
+
+.element{
+    float: left;
+    width: 20%;
+}
+
+@media only screen and (max-width: 800px){
+    body{
+        background-color: indigo;
+    }
+    #div-1{
+        width: 100%;
+        text-align: center;
+        font-size: 500%;
+        font-weight: bolder;
+    }
+    
+    #meme-image{
+        width: 20%;
+    }
+
+    .element{
+        float: none;
+        width: 20%;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 200%
+    }
+
+    .element:hover{
+        background-color: #fff;
+        color: #000000;
+        transition: background-color 0.5 ease;
+    }
+}
+
+a, ul{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 100%;
+}
+
+ul{
+    list-style-type: none;
+    /*border-left-style: solid;
+    border-left-width: 4px;
+    margin-left: 100px;
+    padding: 0;*/
+}
+
+.pet{
+    border-left-style: solid;
+    border-left-width: 4px;
+    padding-left: 10px;
+    /*border-bottom-style: solid;
+    border-bottom-width: 20px;
+    border-bottom-color: #1f2833;
+    border-color: #1f2833;*/
 }
